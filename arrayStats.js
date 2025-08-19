@@ -1,12 +1,12 @@
 const arrayStats =(arr) =>{
 
 let sum= arr.reduce((a,b)=> a+b);
-let average= sum/2;
+let average= (sum/arr.length).toFixed(2);
 let min=Math.min(...arr);
 let max= Math.max(...arr);
 const obj = arr.reduce((acc) => {
   acc['sum']= sum;
-  acc['average']= average;
+  acc['average']= Math.round(average * 100) / 100;
   acc['min']=min;
   acc['max']=max;
   return acc;
