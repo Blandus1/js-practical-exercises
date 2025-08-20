@@ -10,3 +10,7 @@ return obj.sort((a,b)=> a.price-b.price)
 }
 
 console.log(sortProducts(obj));
+
+
+
+
