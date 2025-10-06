@@ -17,20 +17,3 @@ const obj = arr.reduce((acc) => {
 console.log(arrayStats([1,2,3,4,5]))
 
 
-// const arrayStats = (arr) => {
-//   if (!Array.isArray(arr) || arr.length === 0) {
-//     return null; // or throw an error if you prefer
-//   }
-
-//   const sum = arr.reduce((a, b) => a + b, 0);
-//   const average = sum / arr.length;
-//   const min = Math.min(...arr);
-//   const max = Math.max(...arr);
-
-//   return {
-//     sum,
-//     average: Number(average.toFixed(2)), // Ensures it's a number, not string
-//     min,
-//     max
-//   };
-// };
