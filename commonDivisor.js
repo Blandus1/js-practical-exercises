@@ -5,7 +5,7 @@ const commonDivisor =(n1,n2)=> {
 for( let i=1; i<= arr[1]; i++){
     if(arr[0] % i=== 0 && arr[1] % i=== 0){
         
-        divisor.push(i)
+        divisor.push(i);
     }
 }
 return divisor.sort((a,b)=> b-a)[0];
